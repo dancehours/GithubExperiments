@@ -34,3 +34,5 @@ for i in range(6):
     rolls.append(roll)
 print(rolls)
 sys.stdout.flush()
+
+### Comments to show that this is a DEV feature
