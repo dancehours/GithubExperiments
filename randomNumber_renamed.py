@@ -27,3 +27,10 @@ if __name__ == "__main__":
 ### Blah blah
 
 ### Blah blah # 2 - to check git revert
+
+rolls=[]
+for i in range(6):
+    roll = get_random_number(1, 6)
+    rolls.append(roll)
+print(rolls)
+sys.stdout.flush()
